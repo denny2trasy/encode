@@ -1,0 +1,993 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TxtFtpIP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="PanelLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 50</value>
+  </data>
+  <data name="&gt;&gt;PanelRight.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>PanelRight</value>
+  </data>
+  <data name="&gt;&gt;BtnSSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TxtFtpUserName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;TxtFtpIP.Name" xml:space="preserve">
+    <value>TxtFtpIP</value>
+  </data>
+  <data name="TextCreateFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 136</value>
+  </data>
+  <data name="TextCreateFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 26</value>
+  </data>
+  <data name="BtnUploadCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="BtnUploadClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 584</value>
+  </data>
+  <data name="&gt;&gt;BtnHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelEncodeStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 16</value>
+  </data>
+  <data name="&gt;&gt;PanelRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ListUpload.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="TxtFtpUserName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 26</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 13</value>
+  </data>
+  <data name="TxtPassword.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="TxtPassword.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;BtnEncodeStart.Parent" xml:space="preserve">
+    <value>PanelLeft</value>
+  </data>
+  <data name="LabFtpUserName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelUploadStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 563</value>
+  </data>
+  <data name="BtnSSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="&gt;&gt;TxtPassword.Name" xml:space="preserve">
+    <value>TxtPassword</value>
+  </data>
+  <data name="LabFtpIP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 16</value>
+  </data>
+  <data name="&gt;&gt;ListUpload.Name" xml:space="preserve">
+    <value>ListUpload</value>
+  </data>
+  <data name="&gt;&gt;ListEncode.Parent" xml:space="preserve">
+    <value>PanelLeft</value>
+  </data>
+  <data name="ListEncode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 356</value>
+  </data>
+  <data name="BtnCreateFolder.Text" xml:space="preserve">
+    <value>Create Folder</value>
+  </data>
+  <data name="LabFtpIP.Text" xml:space="preserve">
+    <value>Domain or IP</value>
+  </data>
+  <data name="BtnUploadClear.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="TxtDefaultPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 62</value>
+  </data>
+  <data name="&gt;&gt;TxtFtpUserName.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="TextCreateFolder.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;LabFtpIP.Name" xml:space="preserve">
+    <value>LabFtpIP</value>
+  </data>
+  <data name="LabDefaultPath.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BtnUploadStart.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Label8.Parent" xml:space="preserve">
+    <value>PanelRight</value>
+  </data>
+  <data name="BtnSSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 7</value>
+  </data>
+  <data name="&gt;&gt;TxtPassword.Parent" xml:space="preserve">
+    <value>PanelRight</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 16</value>
+  </data>
+  <data name="BtnEncodeCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LabelUploadStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 16</value>
+  </data>
+  <data name="LabFtpUserName.Text" xml:space="preserve">
+    <value>FTP UserName</value>
+  </data>
+  <data name="BtnUploadStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 584</value>
+  </data>
+  <data name="BtnSSave.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="PanelLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 630</value>
+  </data>
+  <data name="&gt;&gt;BtnFolderList.Parent" xml:space="preserve">
+    <value>PanelRight</value>
+  </data>
+  <data name="LabelEncodeStatus.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="&gt;&gt;BtnSClear.Name" xml:space="preserve">
+    <value>BtnSClear</value>
+  </data>
+  <data name="&gt;&gt;LabelEncodeStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Drag video files into the window below</value>
+  </data>
+  <data name="&gt;&gt;BtnEncodeStart.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtnSLoad.Text" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelEncodeStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 561</value>
+  </data>
+  <data name="&gt;&gt;TxtDefaultPath.Name" xml:space="preserve">
+    <value>TxtDefaultPath</value>
+  </data>
+  <data name="&gt;&gt;BtnUploadStart.Name" xml:space="preserve">
+    <value>BtnUploadStart</value>
+  </data>
+  <data name="&gt;&gt;LabDefaultPath.Parent" xml:space="preserve">
+    <value>PanelLeft</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TxtFtpUserName.Parent" xml:space="preserve">
+    <value>PanelRight</value>
+  </data>
+  <data name="BtnCreateFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 133</value>
+  </data>
+  <data name="&gt;&gt;LabFtpIP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextCreateFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="&gt;&gt;ComboFolderList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnEncodeCancel.Parent" xml:space="preserve">
+    <value>PanelLeft</value>
+  </data>
+  <data name="&gt;&gt;BtnFolderList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabFtpUserName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 16</value>
+  </data>
+  <data name="&gt;&gt;LabDefaultPath.Name" xml:space="preserve">
+    <value>LabDefaultPath</value>
+  </data>
+  <data name="BtnSLoad.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BtnSLoad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnUploadCancel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="BtnEncodeStart.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="BtnSClear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="LabDefaultPath.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BtnEncodeCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 30</value>
+  </data>
+  <data name="&gt;&gt;LabFtpUserName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelUploadStatus.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ListEncode.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="BtnCreateFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 31</value>
+  </data>
+  <data name="BtnEncodeStart.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 145</value>
+  </data>
+  <data name="&gt;&gt;BtnEncodeCancel.Name" xml:space="preserve">
+    <value>BtnEncodeCancel</value>
+  </data>
+  <data name="BtnUploadStart.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;BtnEncodeClear.Parent" xml:space="preserve">
+    <value>PanelLeft</value>
+  </data>
+  <data name="Label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabDefaultPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 16</value>
+  </data>
+  <data name="&gt;&gt;LabFtpIP.Parent" xml:space="preserve">
+    <value>PanelRight</value>
+  </data>
+  <data name="BtnUploadStart.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="&gt;&gt;BtnCreateFolder.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;BtnUploadCancel.Parent" xml:space="preserve">
+    <value>PanelRight</value>
+  </data>
+  <data name="LabelEncodeStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;TxtFtpIP.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BtnHelp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;PanelRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TextCreateFolder.Parent" xml:space="preserve">
+    <value>PanelRight</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;ListEncode.Name" xml:space="preserve">
+    <value>ListEncode</value>
+  </data>
+  <data name="LabDefaultPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 66</value>
+  </data>
+  <data name="ComboFolderList.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;TextCreateFolder.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;TxtDefaultPath.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ComboFolderList.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="TxtFtpUserName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 38</value>
+  </data>
+  <data name="&gt;&gt;BtnSClear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnEncodeStart.Name" xml:space="preserve">
+    <value>BtnEncodeStart</value>
+  </data>
+  <data name="&gt;&gt;LabDefaultPath.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="BtnEncodeCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 584</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="PanelRight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;LabelUploadStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListEncode.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;TextCreateFolder.Name" xml:space="preserve">
+    <value>TextCreateFolder</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabFtpUserName.Name" xml:space="preserve">
+    <value>LabFtpUserName</value>
+  </data>
+  <data name="BtnSClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>514, 7</value>
+  </data>
+  <data name="ListUpload.ItemHeight" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;BtnUploadClear.Name" xml:space="preserve">
+    <value>BtnUploadClear</value>
+  </data>
+  <data name="BtnEncodeClear.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="BtnFolderList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 168</value>
+  </data>
+  <data name="&gt;&gt;TxtFtpUserName.Name" xml:space="preserve">
+    <value>TxtFtpUserName</value>
+  </data>
+  <data name="LabFtpIP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 73</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="BtnSLoad.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="BtnUploadClear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="&gt;&gt;BtnEncodeStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ListUpload.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 200</value>
+  </data>
+  <data name="&gt;&gt;BtnEncodeCancel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Upload Module</value>
+  </data>
+  <data name="&gt;&gt;LabFtpUserName.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="PanelRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 50</value>
+  </data>
+  <data name="&gt;&gt;BtnHelp.Name" xml:space="preserve">
+    <value>BtnHelp</value>
+  </data>
+  <data name="&gt;&gt;TxtPassword.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Label8.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 16</value>
+  </data>
+  <data name="&gt;&gt;PanelLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TxtDefaultPath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;LabelUploadStatus.Parent" xml:space="preserve">
+    <value>PanelRight</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="BtnUploadCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 584</value>
+  </data>
+  <data name="&gt;&gt;ComboFolderList.Name" xml:space="preserve">
+    <value>ComboFolderList</value>
+  </data>
+  <data name="&gt;&gt;ComboFolderList.Parent" xml:space="preserve">
+    <value>PanelRight</value>
+  </data>
+  <data name="BtnEncodeClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 584</value>
+  </data>
+  <data name="&gt;&gt;LabelUploadStatus.Name" xml:space="preserve">
+    <value>LabelUploadStatus</value>
+  </data>
+  <data name="BtnEncodeStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 30</value>
+  </data>
+  <data name="BtnSClear.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ListUpload.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="TxtDefaultPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>281, 26</value>
+  </data>
+  <data name="Label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BtnUploadCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="BtnEncodeCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;Label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ComboFolderList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;BtnEncodeClear.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="BtnUploadClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 30</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 7</value>
+  </data>
+  <data name="&gt;&gt;BtnUploadClear.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ComboFolderList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 171</value>
+  </data>
+  <data name="LabFtpUserName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ListUpload.Parent" xml:space="preserve">
+    <value>PanelRight</value>
+  </data>
+  <data name="&gt;&gt;BtnCreateFolder.Parent" xml:space="preserve">
+    <value>PanelRight</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Sans Unicode, 9pt</value>
+  </data>
+  <data name="LabFtpUserName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 45</value>
+  </data>
+  <data name="ListEncode.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="BtnHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="&gt;&gt;LabelEncodeStatus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FwlClient</value>
+  </data>
+  <data name="BtnUploadCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="BtnEncodeCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 105</value>
+  </data>
+  <data name="PanelRight.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;LabelUploadStatus.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>PanelLeft</value>
+  </data>
+  <data name="TxtFtpUserName.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;BtnUploadStart.Parent" xml:space="preserve">
+    <value>PanelRight</value>
+  </data>
+  <data name="BtnEncodeClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 30</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Encode Module</value>
+  </data>
+  <data name="TextCreateFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="TxtFtpIP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 69</value>
+  </data>
+  <data name="PanelRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 630</value>
+  </data>
+  <data name="&gt;&gt;BtnUploadStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 13</value>
+  </data>
+  <data name="&gt;&gt;ListEncode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListUpload.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnCreateFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtDefaultPath.Parent" xml:space="preserve">
+    <value>PanelLeft</value>
+  </data>
+  <data name="&gt;&gt;LabFtpUserName.Parent" xml:space="preserve">
+    <value>PanelRight</value>
+  </data>
+  <data name="BtnHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 172</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;ListUpload.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LabDefaultPath.Text" xml:space="preserve">
+    <value>Default Path</value>
+  </data>
+  <data name="BtnUploadCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 30</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="BtnUploadClear.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="BtnSClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="&gt;&gt;LabFtpIP.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;PanelLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TxtFtpUserName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnCreateFolder.Name" xml:space="preserve">
+    <value>BtnCreateFolder</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TxtDefaultPath.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BtnUploadClear.Parent" xml:space="preserve">
+    <value>PanelRight</value>
+  </data>
+  <data name="&gt;&gt;TxtFtpIP.Parent" xml:space="preserve">
+    <value>PanelRight</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 16</value>
+  </data>
+  <data name="&gt;&gt;BtnHelp.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;BtnEncodeCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtDefaultPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PanelLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Label8.Name" xml:space="preserve">
+    <value>Label8</value>
+  </data>
+  <data name="BtnCreateFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;PanelLeft.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="&gt;&gt;BtnEncodeClear.Name" xml:space="preserve">
+    <value>BtnEncodeClear</value>
+  </data>
+  <data name="&gt;&gt;BtnSSave.Name" xml:space="preserve">
+    <value>BtnSSave</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TxtPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 101</value>
+  </data>
+  <data name="Label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BtnSSave.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LabFtpIP.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="BtnSClear.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;BtnSLoad.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtnFolderList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 31</value>
+  </data>
+  <data name="BtnUploadStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 30</value>
+  </data>
+  <data name="BtnFolderList.Text" xml:space="preserve">
+    <value>Folder List</value>
+  </data>
+  <data name="LabelUploadStatus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelUploadStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="BtnEncodeClear.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;BtnUploadClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnSSave.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="LabFtpIP.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <data name="BtnSSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;LabelEncodeStatus.Name" xml:space="preserve">
+    <value>LabelEncodeStatus</value>
+  </data>
+  <data name="BtnFolderList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;BtnSLoad.Name" xml:space="preserve">
+    <value>BtnSLoad</value>
+  </data>
+  <data name="BtnSLoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="&gt;&gt;BtnSSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>PanelLeft</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>884, 691</value>
+  </data>
+  <data name="BtnCreateFolder.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;BtnSClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnFolderList.Name" xml:space="preserve">
+    <value>BtnFolderList</value>
+  </data>
+  <data name="&gt;&gt;BtnEncodeClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="&gt;&gt;LabelEncodeStatus.Parent" xml:space="preserve">
+    <value>PanelLeft</value>
+  </data>
+  <data name="&gt;&gt;PanelRight.Name" xml:space="preserve">
+    <value>PanelRight</value>
+  </data>
+  <data name="BtnEncodeStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 584</value>
+  </data>
+  <data name="BtnEncodeClear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="TxtFtpIP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 26</value>
+  </data>
+  <data name="&gt;&gt;BtnSClear.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TxtFtpIP.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="LabelEncodeStatus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BtnEncodeStart.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;TxtFtpIP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSLoad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnHelp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnUploadCancel.Name" xml:space="preserve">
+    <value>BtnUploadCancel</value>
+  </data>
+  <data name="&gt;&gt;PanelLeft.Name" xml:space="preserve">
+    <value>PanelLeft</value>
+  </data>
+  <data name="TxtPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BtnFolderList.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnFolderList.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;BtnUploadCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ListEncode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 200</value>
+  </data>
+  <data name="ListUpload.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 356</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListEncode.ItemHeight" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;LabDefaultPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>.mov, .avi, .ts or .mp4</value>
+  </data>
+  <data name="BtnUploadStart.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="TxtPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 26</value>
+  </data>
+  <data name="PanelLeft.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="BtnSLoad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 7</value>
+  </data>
+  <data name="ComboFolderList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 24</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>PanelLeft</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
